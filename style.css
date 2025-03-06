@@ -1,0 +1,63 @@
+#logo img {
+    width:80px;
+}
+
+@media(min-width: 1200px){
+    .container{
+            max-width: 970px;
+    }
+}
+
+.card {
+    background-color:darkgray;
+    color:black;
+}
+
+#subscribe {
+    background-color: rgb(0, 140, 255);
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#footer-left h5 {
+    font-weight: bold;
+}
+
+#footer-left,
+#footer-right {
+    flex: 1;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+#social-icons {
+    margin-bottom: 10px;
+}
+
+#social-icons a img {
+    width: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#social-icons a img:hover {
+    transform: scale(1.2);
+}
+
